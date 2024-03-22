@@ -9,7 +9,7 @@ import yfinance as yf
 # We need to agree on specific timeframe
 # end_date = ...
 end_date = datetime.datetime.now() 
-start_date = end_date - datetime.timedelta(days = 365 * 5)
+start_date = end_date - datetime.timedelta(days = 365 * 5) # we are using 5 years of historical data
 stock_data = yf.download('TSLA', start=start_date.date(), end=end_date.date())
 
 # Use only the 'Close' column for label (index 1)
