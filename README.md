@@ -1,7 +1,7 @@
 # Stock_Market_Prediction
 AI systems Project on predicting the stock market.
 
-Dataset:
+Dataset (using TSLA atm):
 ```
 import datetime
 import yfinance as yf
